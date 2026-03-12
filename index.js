@@ -1,7 +1,7 @@
 const express = require("express");
 const env = require("dotenv");
 const cors = require("cors");
-const router = require("./routes/patient");
+const router = require("./routes/book");
 const connectDB = require("./config/db");
 env.config();
 
